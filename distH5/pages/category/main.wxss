@@ -1,0 +1,70 @@
+
+#top {
+  width: auto;
+  height: 110rpx;
+}
+#top #search {
+  width: 95%;
+  height: 70rpx;
+  background-color: #efefef;
+  border-radius: 10rpx;
+  margin: 20rpx;
+  position: fixed;
+}
+#top #search ._img {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 16rpx;
+  left: 20rpx;
+}
+#top #search ._h3 {
+  margin-left: 80rpx;
+  line-height: 70rpx;
+  color: #c2c2c2;
+  font-size: 32rpx;
+}
+#main {
+  width: auto;
+}
+#main ._ul {
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#main ._ul ._li {
+  width: 48%;
+  height: 300rpx;
+  background-color: #efefef;
+  border-radius: 10rpx;
+  margin-bottom: 20rpx;
+}
+#main ._ul ._li navigator {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+#main ._ul ._li navigator ._img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10rpx;
+}
+#main ._ul ._li navigator ._p {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 70rpx;
+  border-radius: 0 0 10rpx 10rpx;
+}
+#main ._ul ._li navigator ._p ._i {
+  font-size: 32rpx;
+  line-height: 70rpx;
+  text-align: center;
+  color: #c2c2c2;
+}
+#main ._ul ._li:nth-child(2n) {
+  margin-left: 20rpx;
+}

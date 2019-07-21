@@ -1,0 +1,7 @@
+<template name="77a3d6f7">
+  <view class="_div data-v-408fe245">
+    <view id="main" class="_div data-v-408fe245">
+      <image src="http://www.kxming.cn/fight.jpeg" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_img data-v-408fe245"></image>
+    </view>
+  </view>
+</template>

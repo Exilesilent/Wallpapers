@@ -1,0 +1,51 @@
+
+#top {
+  width: auto;
+  height: 110rpx;
+}
+#top #search {
+  width: 95%;
+  height: 70rpx;
+  background-color: #efefef;
+  border-radius: 10rpx;
+  margin: 20rpx;
+  position: fixed;
+}
+#top #search .search {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 16rpx;
+  left: 20rpx;
+}
+#top #search .clear {
+  width: 36rpx;
+  height: 36rpx;
+  position: absolute;
+  top: 16rpx;
+  right: 20rpx;
+  z-index: 9999;
+}
+#top #search ._h3 {
+  position: absolute;
+  margin-left: 80rpx;
+  line-height: 70rpx;
+  color: #c2c2c2;
+  font-size: 32rpx;
+  top: 0;
+}
+#top #search ._input {
+  width: 78%;
+  height: 100%;
+  margin: 0 80rpx;
+  font-size: 32rpx;
+}
+#main {
+  padding: 20rpx;
+}
+#main ._p {
+  font-size: 32rpx;
+  color: #c2c2c2;
+  margin-top: 20rpx;
+  text-align: center;
+}

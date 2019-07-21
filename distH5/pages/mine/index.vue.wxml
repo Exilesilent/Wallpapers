@@ -1,0 +1,12 @@
+<template name="6b20dafa">
+  <view id="mine" class="_div data-v-ea13b5f8">
+    <image src="/static/img/icon.png" id="logo" class="_img data-v-ea13b5f8"></image>
+    <view class="_h2 data-v-ea13b5f8">关于Wallpapers</view>
+    <view class="_h3 data-v-ea13b5f8">版本号: 1.0</view>
+    <view class="_p data-v-ea13b5f8">图片资源均来源于互联网</view>
+    <view class="_p data-v-ea13b5f8">只是图片搬运工</view>
+    <view class="_p data-v-ea13b5f8">如果你喜欢</view>
+    <view bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_i data-v-ea13b5f8">赞赏支持</view>
+    <view class="_em data-v-ea13b5f8">作者:ExileSilent</view>
+  </view>
+</template>

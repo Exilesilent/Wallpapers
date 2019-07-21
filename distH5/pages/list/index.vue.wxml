@@ -1,0 +1,18 @@
+<template name="6f1f05e4">
+  <view class="_div data-v-ee11e0e2">
+    <view id="main" class="_div data-v-ee11e0e2">
+      <image src="{{url.url}}" bindtap="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_img data-v-ee11e0e2"></image>
+    </view>
+    <view id="food" class="_div data-v-ee11e0e2">
+      <view class="_h2 data-v-ee11e0e2">标签：{{url.tag}}</view>
+      <view class="_p data-v-ee11e0e2">创建时间：{{url.create}}</view>
+      <view class="_p data-v-ee11e0e2">更新时间：{{url.update}}</view>
+      <view class="_div data-v-ee11e0e2 line"></view>
+    </view>
+    <view id="text" class="_div data-v-ee11e0e2">
+      <view class="_p data-v-ee11e0e2">温馨提示</view>
+      <view class="_p data-v-ee11e0e2">下拉或点击图片进行预览</view>
+      <view class="_p data-v-ee11e0e2">长按保存图片</view>
+    </view>
+  </view>
+</template>

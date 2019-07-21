@@ -1,0 +1,34 @@
+
+#mine {
+  text-align: center;
+  margin-top: 100rpx;
+  color: #c2c2c2;
+  line-height: 70rpx;
+}
+#mine ._h3 {
+  font-size: 32rpx;
+}
+#mine #logo {
+  width: 180rpx;
+  height: 180rpx;
+}
+#mine ._p {
+  margin-top: 70rpx;
+  font-size: 32rpx;
+}
+#mine ._i {
+  display: block;
+  width: 200rpx;
+  height: 80rpx;
+  border-radius: 10rpx;
+  background-color: #d3473a;
+  color: #fff;
+  line-height: 80rpx;
+  font-size: 32rpx;
+  margin: 0 auto;
+  margin-top: 40rpx;
+}
+#mine ._em {
+  margin-top: 60rpx;
+  font-size: 24rpx;
+}

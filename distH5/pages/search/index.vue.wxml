@@ -1,0 +1,15 @@
+<template name="a1c345d0">
+  <view class="_div data-v-5cc8face">
+    <view id="top" class="_div data-v-5cc8face">
+      <view id="search" class="_div data-v-5cc8face">
+        <image src="/static/img/search@3x.png" class="_img data-v-5cc8face search"></image> <input type="search" name="search" value="{{inputData}}" bindinput="handleProxy" bindfocus="handleProxy" bindblur="handleProxy" data-eventid="{{'0'}}" data-comkey="{{$k}}" class="_input data-v-5cc8face" />
+        <view hidden="{{!(show)}}" class="_h3 data-v-5cc8face">搜索主题、图片</view>
+        <image src="/static/img/clear.png" class="_img data-v-5cc8face clear" bindtap="handleProxy" hidden="{{!(clear)}}" data-eventid="{{'1'}}" data-comkey="{{$k}}"></image>
+      </view>
+    </view>
+    <view id="main" class="_div data-v-5cc8face">
+      <view class="_h2 data-v-5cc8face">热门搜索</view>
+      <view class="_p data-v-5cc8face">搜索功能暂未开放,将在2.0版本中更新</view>
+    </view>
+  </view>
+</template>
