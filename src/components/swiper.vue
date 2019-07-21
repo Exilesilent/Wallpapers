@@ -3,7 +3,7 @@
         <block v-for="(item, index) in images" :key="index">
             <swiper-item>
               <navigator :url="'/pages/list/main?id='+ item.id +'&url=' + item.url + '&tag=' + item.utag + '&create=' + item.create_time + '&update=' + item.update_time">
-                <image :src="item.url_mobile" class="slide-image" mode="aspectFill"/>
+                <image :src="item.url" class="slide-image" mode="aspectFill"/>
               </navigator>
             </swiper-item>
         </block>

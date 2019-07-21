@@ -85,6 +85,7 @@ export default {
     // 获取轮播图的请求
     getSwiper () {
       this.$axios.get('index.php?c=WallPaper&a=getAppsByOrder&order=create_time&start=' + this.page + '&count=3&from=360chrome').then(res => {
+        console.log(res)
         this.img = res.data.data
       })
     }

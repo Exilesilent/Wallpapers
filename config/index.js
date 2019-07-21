@@ -49,7 +49,7 @@ module.exports = {
     bundleAnalyzerReport: process.env.npm_config_report,
     fileExt: fileExt,
     index: path.resolve(__dirname, `../distH5/index.html`),
-    assetsRoot: path.resolve(__dirname, `../distH5`)
+    assetsRoot: path.resolve(__dirname, `../dist`)
   },
   dev: {
     env: require('./dev.env'),

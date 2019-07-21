@@ -10,7 +10,7 @@
 		"autoAudits": false,
 		"uglifyFileName": true
 	},
-	"miniprogramRoot": "dist/wx/",
+	"miniprogramRoot": "dist/",
 	"compileType": "miniprogram",
 	"appid": "wx268e483780c8aa4f",
 	"projectname": "mpvue_app",
